@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Manuel Naranjo">
+    <meta name="description" content="Parcial 1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial Desarrollo De Aplicaciones Web (Impar)</title>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('Background.png');
+            background-size: cover;
+        }
+
+      
+        .header1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px black;
+        }
+        .header2{
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px red;  
+        }
+
+        nav {
+            background-color: #4A3FC3;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .card {
+            border-radius: 10px;
+            margin: 15px;
+            padding: 20px;
+            width: 200px;
+            /*text-align: center;*/
+            color: white;
+            box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    
+        }
+
+        /* Estilos para los diferentes colores de las tarjetas */
+
+        .html {
+            margin-bottom: 10px;
+            background-color: #6A0DAD; /* Púrpura */
+            border-top:red ;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        .card p {
+            font-size: 14px;
+            text-align: right;
+        }
+        .card image {
+            width: 5px;
+            height: 5px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #CCC;
+        }
+    </style>
+</head>
+<body>
+    <header class="header1">
+        Primer Parcial Desarrollo De Aplicaciones Web (Impar)
+    </header>
+
+    <!-- Segundo header -->
+    <header class="header2">
+        HTML + CSS 
+    </header>
+
+    <nav>
+        <a href="./principal.html">INICIO</a>
+        <a href="./HTML.html">HTML</a>
+        <a href="./CSS.html">CSS</a>
+    </nav>
+
+    <div class="content">
+        <div class="card html">
+            <h2>HTML</h2>
+            <p>Lenguaje de marcado con el que declaramos la estructura de una página web. Consiste de elementos anidados y cada elemento tiene unos atributos que permiten modificar su comportamiento.</p>
+            <img src="html1.png" alt="html">
+        </div>
+    </div>
+
+    <footer class="footer">
+        Desarrollado Por: Manuel Naranjo <br>
+        Universidad De Antioquia <br>
+        2024-2
+    </footer>
+</body>
+</html>

@@ -36,6 +36,7 @@
         nav {
             background-color: #4A3FC3;
             padding: 15px;
+            text-align: left;
         }
 
         nav a {
@@ -47,19 +48,22 @@
 
         .content {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             flex-wrap: wrap;
             margin-top: 50px;
         }
 
         .card {
+            position: relative;
+            display: grid;
             border-radius: 10px;
             margin: 15px;
             padding: 20px;
-            width: 200px;
+            width: 90%;
             /*text-align: center;*/
             color: white;
-            box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+           box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5);
+            
     
         }
 
@@ -68,10 +72,14 @@
         .html {
             margin-bottom: 10px;
             background-color: #6A0DAD; /* Púrpura */
-            border-top:red ;
+            border-block-start: 10px none whitesmoke; /*border-top*/
+            border-block-end: 5px solid violet; /*border-bottom*/
+            border-inline-start: 12px none whitesmoke; /* border-left*/
+            border-inline-end: 8px none black; /* border-right*/
         }
 
         .card h2 {
+            color: #FF4E00;
             margin-bottom: 10px;
             text-align: right;
         }
@@ -81,9 +89,11 @@
             text-align: right;
         }
         .card image {
+            position: absolute;
             width: 5px;
             height: 5px;
-            margin-bottom: 10px;
+            bottom: 5px;
+            left: 5px;
         }
 
         .footer {

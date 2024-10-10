@@ -1,0 +1,15 @@
+body{
+    font-size: 2em;
+  }
+  
+  .error{
+    background-color: red;
+  }
+  
+  .ok{
+    background-color: green;
+  }
+  
+  .neutral{
+    background-color: white;
+  }
